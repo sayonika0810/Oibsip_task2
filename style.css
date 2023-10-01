@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body{
+    margin:15px;
+    padding:15px;
+}
+
+h1{
+    color: #02949f;
+}
+body {
+    font-family: 'Croissant One', cursive;
+}
+a:hover{
+    color:#02949f ;
+}
+
+.n1{
+    font-size: 1.5rem;
+    background-color: #333;
+    color: #eee;
+}
+
+.bgimg {
+    height:100vh;
+    background: url('https://media.istockphoto.com/id/840566622/photo/top-view-desk.webp?b=1&s=170667a&w=0&k=20&c=ZMJTrTNdOsuCYgxHkxt1qfSDWK2mTiLo8AP_eNh0zcY=');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.title {
+    font-size: 4.5rem;
+    color: #333;
+    display: inline;
+}
+.desc {
+    font-size: 2rem;
+    color: #333;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.imgAbout {
+    width: 100%;
+}
+#about{
+    background-color: rgb(226, 229, 232);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#services{
+    background-color: rgb(226, 229, 232);
+    padding: 1rem;
+    margin: 1rem;
+}
+.servicesText.card {
+    cursor: pointer;
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #02949f;
+}
+.servicesText:hover {
+    border: 1px solid #02949f;
+}
+#portfolio{
+    background-color: rgb(226, 229, 232);
+    padding: 1rem;
+    margin: 1rem;
+}
+.card-body{
+    text-align: center;
+}
+
+
+#contact{
+    background-color: rgb(226, 229, 232);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
